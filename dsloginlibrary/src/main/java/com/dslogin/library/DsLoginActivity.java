@@ -67,7 +67,7 @@ public class DsLoginActivity extends AppCompatActivity implements View.OnClickLi
         if (!TextUtils.isEmpty(value1)) {
             Toast.makeText(this, value1, Toast.LENGTH_SHORT).show();
         }
-        Toast.makeText(this, "登录BUNDLE欢迎您！", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, BuildConfig.VERSION_NAME, Toast.LENGTH_SHORT).show();
     }
 
     public void findMyView() {
