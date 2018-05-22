@@ -68,6 +68,7 @@ def mvn_password = getEnvValue('NEXUS_USER_PASSWORD', "")
 def emas_version_name = getEnvValue('EMAS_VERSION_NAME', "1.0.3-SNAPSHOT")
 if (mvn_username) {
     println("mvn_username=" + mvn_username)
+
 }
 if (mvn_password) {
     println("mvn_password=" + mvn_password)
