@@ -24,6 +24,9 @@ import com.alibaba.fastjson.JSON;
 
 import java.io.IOException;
 import java.lang.ref.WeakReference;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
 
 import okhttp3.Call;
@@ -68,7 +71,9 @@ public class DsLoginActivity extends AppCompatActivity implements View.OnClickLi
             Toast.makeText(this, value1, Toast.LENGTH_SHORT).show();
         }
         Toast.makeText(this, BuildConfig.VERSION_NAME, Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, BuildConfig.VERSION_NAME+"动态部署测试", Toast.LENGTH_SHORT).show();
+        DateFormat df = new SimpleDateFormat("yyyy-MM-dd, HH-mm-ss");
+        String current = df.format(Calendar.getInstance().getTime());
+        Toast.makeText(this, "测试热修复" + current, Toast.LENGTH_SHORT).show();
     }
 
     public void findMyView() {
