@@ -173,15 +173,15 @@ dependencies {
     compile('com.alibaba:fastjson:1.1.54.android@jar') { transitive true }
     compile('com.taobao.android:mtopsdk_allinone:3.0.4.7-open@jar') { transitive true }
     compile('com.taobao.android:networksdk:3.3.5-open@jar') { transitive true }
-    compile('com.taobao.android:tnet4android:3.1.14.6@aar') { transitive true }
+//    compile('com.taobao.android:tnet4android:3.1.14.6@aar') { transitive true }
     compile('com.taobao.android:utdid4all:1.1.5.3_proguard@jar') { transitive true }
     /************基础库 END**********/
 
     /************UPDATE START**********/
-    compile('com.taobao.android:atlas_core:5.0.8.0@aar') { transitive true }
-    compile('com.taobao.android:open-update-aar:1.0.1-open@aar') {
-        transitive true
-    }
+//    compile('com.taobao.android:atlas_core:5.0.8.0@aar') { transitive true }
+//    compile('com.taobao.android:open-update-aar:1.0.1-open@aar') {
+//        transitive true
+//    }
     compile('com.taobao.android:downloader:2.0.2.12@jar') { transitive true }
 //    /************UPDATE END**********/
 //
@@ -192,8 +192,8 @@ dependencies {
 //        transitive true
 //    }
 //    //默认oss通道需要依赖oss的三方库
-//    compile 'com.squareup.okhttp3:okhttp:3.4.1@jar'
-//    compile 'com.squareup.okio:okio:1.9.0@jar'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1@jar'
+    compile 'com.squareup.okio:okio:1.9.0@jar'
 //    compile 'com.aliyun.dpa:oss-android-sdk:2.4.2@aar'
 //    /************高可用 SDK END**********/
 //

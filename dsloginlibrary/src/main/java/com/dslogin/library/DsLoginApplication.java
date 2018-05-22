@@ -4,15 +4,11 @@ import android.app.Application;
 
 import anetwork.channel.config.NetworkConfigCenter;
 import mtopsdk.common.util.TBSdkLog;
-import mtopsdk.mtop.domain.EnvModeEnum;
 import mtopsdk.mtop.global.SwitchConfig;
 import mtopsdk.mtop.intf.Mtop;
 import mtopsdk.mtop.intf.MtopEnablePropertyType;
 import mtopsdk.mtop.intf.MtopSetting;
 import mtopsdk.security.LocalInnerSignImpl;
-
-import static com.taobao.accs.AccsClientConfig.mEnv;
-import static com.taobao.accs.common.Constants.DEBUG;
 
 /**
  * Created by andy on 2018/5/16.
@@ -45,9 +41,9 @@ public class DsLoginApplication extends Application {
         MtopSetting.setAppVersion(Mtop.Id.INNER, BuildConfig.VERSION_NAME);
         Mtop mtopInstance = Mtop.instance(Mtop.Id.INNER, getApplicationContext(), "");
         //设置日常环境
-        if (mEnv == DEBUG) {
-            mtopInstance.switchEnvMode(EnvModeEnum.TEST);
-        }
+//        if (mEnv == DEBUG) {
+//            mtopInstance.switchEnvMode(EnvModeEnum.TEST);
+//        }
         mtopInstance.registerTtid("mTTid");
     }
 }
