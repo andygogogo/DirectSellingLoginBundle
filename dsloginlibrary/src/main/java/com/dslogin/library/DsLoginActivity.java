@@ -68,6 +68,7 @@ public class DsLoginActivity extends AppCompatActivity implements View.OnClickLi
             Toast.makeText(this, value1, Toast.LENGTH_SHORT).show();
         }
         Toast.makeText(this, BuildConfig.VERSION_NAME, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, BuildConfig.VERSION_NAME+"动态部署测试", Toast.LENGTH_SHORT).show();
     }
 
     public void findMyView() {
