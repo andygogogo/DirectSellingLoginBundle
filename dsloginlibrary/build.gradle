@@ -183,36 +183,36 @@ dependencies {
         transitive true
     }
     compile('com.taobao.android:downloader:2.0.2.12@jar') { transitive true }
-    /************UPDATE END**********/
-
-    /************高可用 SDK START**********/
-    compile('com.taobao.android:accs_sdk_taobao:3.3.3.1-open') { transitive true }
-    compile('com.taobao.android:ut-analytics:1.1.0.1-open@aar') { transitive true }
-    compile('com.alibaba.ha:alihatbadapter:1.1.0.2-open@aar') {
-        transitive true
-    }
-    //默认oss通道需要依赖oss的三方库
-    compile 'com.squareup.okhttp3:okhttp:3.4.1@jar'
-    compile 'com.squareup.okio:okio:1.9.0@jar'
-    compile 'com.aliyun.dpa:oss-android-sdk:2.4.2@aar'
-    /************高可用 SDK END**********/
-
-    /************WEEX SDK START**********/
-    compile("com.taobao.android:weex_sdk:0.17.9-new-measurement-1") { transitive true }
-    compile('com.taobao.android:zcache:0.1.1-proguard') { transitive true }
-    compile('com.alibaba.mtl:dynamicConfig:0.1.0.10') { transitive true }
-    compile('com.alibaba.mtl:dynamicconfigadapter:0.1.0.10') { transitive true }
-    compile('com.android.support:recyclerview-v7:26.+') { transitive true }
+//    /************UPDATE END**********/
+//
+//    /************高可用 SDK START**********/
+//    compile('com.taobao.android:accs_sdk_taobao:3.3.3.1-open') { transitive true }
+//    compile('com.taobao.android:ut-analytics:1.1.0.1-open@aar') { transitive true }
+//    compile('com.alibaba.ha:alihatbadapter:1.1.0.2-open@aar') {
+//        transitive true
+//    }
+//    //默认oss通道需要依赖oss的三方库
+//    compile 'com.squareup.okhttp3:okhttp:3.4.1@jar'
+//    compile 'com.squareup.okio:okio:1.9.0@jar'
+//    compile 'com.aliyun.dpa:oss-android-sdk:2.4.2@aar'
+//    /************高可用 SDK END**********/
+//
+//    /************WEEX SDK START**********/
+//    compile("com.taobao.android:weex_sdk:0.17.9-new-measurement-1") { transitive true }
+//    compile('com.taobao.android:zcache:0.1.1-proguard') { transitive true }
+//    compile('com.alibaba.mtl:dynamicConfig:0.1.0.10') { transitive true }
+//    compile('com.alibaba.mtl:dynamicconfigadapter:0.1.0.10') { transitive true }
+//    compile('com.android.support:recyclerview-v7:26.+') { transitive true }
     compile 'com.android.support:appcompat-v7:26.+'
-    /************WEEX SDK END**********/
-
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-
-    compile 'com.android.support:design:26.1.0'
-    compile 'com.android.support:support-v4:26.0.0-beta1'
-    compile 'com.facebook.fresco:fresco:0.12.0+'
-    compile 'com.facebook.fresco:animated-gif:0.12.0'
-    //zxing相关
-    compile 'com.journeyapps:zxing-android-embedded:3.2.0@aar'
-    compile 'com.google.zxing:core:3.2.1'
+//    /************WEEX SDK END**********/
+//
+//    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+//
+//    compile 'com.android.support:design:26.1.0'
+//    compile 'com.android.support:support-v4:26.0.0-beta1'
+//    compile 'com.facebook.fresco:fresco:0.12.0+'
+//    compile 'com.facebook.fresco:animated-gif:0.12.0'
+//    //zxing相关
+//    compile 'com.journeyapps:zxing-android-embedded:3.2.0@aar'
+//    compile 'com.google.zxing:core:3.2.1'
 }
