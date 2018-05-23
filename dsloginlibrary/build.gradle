@@ -65,7 +65,7 @@ apply plugin: 'maven-publish'
 
 def mvn_username = getEnvValue('NEXUS_USER_NAME', "")
 def mvn_password = getEnvValue('NEXUS_USER_PASSWORD', "")
-def emas_version_name = getEnvValue('EMAS_VERSION_NAME', "1.0.3-SNAPSHOT")
+def emas_version_name = getEnvValue('EMAS_VERSION_NAME', "1.0.0-SNAPSHOT")
 if (mvn_username) {
     println("mvn_username=" + mvn_username)
 
